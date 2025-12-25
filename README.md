@@ -3,15 +3,15 @@
 A Telegram bot for spam protection using a captcha system. New users must pass verification before gaining access to the chat.
 ## 🚀 Features
 
-    [x] Multi-type captcha: math problems, text questions, color selection
+[x] Multi-type captcha: math problems, text questions, color selection
 
-    [x] Flexible configuration: all questions and settings via a .env file
+[x] Flexible configuration: all questions and settings via a .env file
 
-    [] Moderation: administrators can manage settings via commands
+[] Moderation: administrators can manage settings via commands
 
-    [] Statistics: tracking of activity and verification success rates
+[] Statistics: tracking of activity and verification success rates
 
-    [] Automatic cleanup: removal of inactive captchas and user data
+[] Automatic cleanup: removal of inactive captchas and user data
 
 ## 📦 Technologies
 
@@ -42,16 +42,16 @@ go build -o gatekeeper-bot .
 ## 🏗 Project Architecture
 
 gatekeeper-bot/
-├── main.go                # Entry point
+├── main.go               
 ├── config/
-│   └── config.go          # Application configuration
+│   └── config.go         
 ├── database/
-│   └── mongodb.go         # MongoDB interaction
+│   └── mongodb.go        
 ├── handler/
-│   └── bot_handler.go     # Command handlers
+│   └── bot_handler.go    
 ├── models/
-│   └── models.go          # Data models
-├── .env                   # Configuration example
+│   └── models.go          
+├── .env                   
 ├── .gitignore
 ├── go.mod
 ├── go.sum
@@ -59,18 +59,18 @@ gatekeeper-bot/
 
 ## 🔒 Setting up the bot in Telegram
 
-    Create a bot via @BotFather
+Create a bot via @BotFather
 
-    Get the bot token and add it to your .env file (BOT_TOKEN=your_token_here)
+Get the bot token and add it to your .env file (BOT_TOKEN=your_token_here)
 
-    Add the bot to your group and grant it Administrator privileges, specifically:
+Add the bot to your group and grant it Administrator privileges, specifically:
 
-        Delete Messages
+    Delete Messages
 
-        Ban Users
+    Ban Users
 
-        Invite Users via Link
+    Invite Users via Link
 
-        Pin Messages
+    Pin Messages
 
-    Enable the "Allow Groups" mode in the bot's settings (BotFather -> Bot Settings -> Group Privacy -> Turn off).
+Enable the "Allow Groups" mode in the bot's settings (BotFather -> Bot Settings -> Group Privacy -> Turn off).
