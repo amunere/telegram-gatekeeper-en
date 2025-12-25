@@ -24,7 +24,6 @@ A Telegram bot for spam protection using a captcha system. New users must pass v
 ## 🛠 Installation and Setup
 
 Clone the repository
-bash
     ```git clone https://github.com/yourusername/gatekeeper-bot.git
     cd gatekeeper-bot```
 
@@ -65,12 +64,12 @@ Get the bot token and add it to your .env file (BOT_TOKEN=your_token_here)
 
 Add the bot to your group and grant it Administrator privileges, specifically:
 
-    Delete Messages
+- Delete Messages
 
-    Ban Users
+- Ban Users
 
-    Invite Users via Link
+- Invite Users via Link
 
-    Pin Messages
+- Pin Messages
 
 Enable the "Allow Groups" mode in the bot's settings (BotFather -> Bot Settings -> Group Privacy -> Turn off).
