@@ -7,11 +7,11 @@ A Telegram bot for spam protection using a captcha system. New users must pass v
 
 [x] Flexible configuration: all questions and settings via a .env file
 
-[] Moderation: administrators can manage settings via commands
+[ ] Moderation: administrators can manage settings via commands
 
-[] Statistics: tracking of activity and verification success rates
+[ ] Statistics: tracking of activity and verification success rates
 
-[] Automatic cleanup: removal of inactive captchas and user data
+[ ] Automatic cleanup: removal of inactive captchas and user data
 
 ## 📦 Technologies
 
