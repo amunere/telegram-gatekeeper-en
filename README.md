@@ -30,14 +30,14 @@ bash
 
 Configure the environment
 
-    Edit the .env file, filling in your data
+Edit the .env file, filling in your data
 
 Build and run
 bash
 
-go mod download
-go build -o gatekeeper-bot .
-./gatekeeper-bot
+    go mod download  
+    go build -o gatekeeper-bot .  
+    ./gatekeeper-bot  
 
 ## 🏗 Project Architecture
 
