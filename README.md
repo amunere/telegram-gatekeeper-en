@@ -24,10 +24,9 @@ A Telegram bot for spam protection using a captcha system. New users must pass v
 ## 🛠 Installation and Setup
 
     Clone the repository
-    bash
-
-git clone https://github.com/yourusername/gatekeeper-bot.git
-cd gatekeeper-bot
+    ###### * bash
+    git clone https://github.com/yourusername/gatekeeper-bot.git
+    cd gatekeeper-bot
 
 Configure the environment
 
