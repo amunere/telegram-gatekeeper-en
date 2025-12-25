@@ -3,15 +3,15 @@
 A Telegram bot for spam protection using a captcha system. New users must pass verification before gaining access to the chat.
 ## 🚀 Features
 
-    Multi-type captcha: math problems, text questions, color selection
+    [x] Multi-type captcha: math problems, text questions, color selection
 
-    Flexible configuration: all questions and settings via a .env file
+    [x] Flexible configuration: all questions and settings via a .env file
 
-    Moderation: administrators can manage settings via commands
+    [] Moderation: administrators can manage settings via commands
 
-    Statistics: tracking of activity and verification success rates
+    [] Statistics: tracking of activity and verification success rates
 
-    Automatic cleanup: removal of inactive captchas and user data
+    [] Automatic cleanup: removal of inactive captchas and user data
 
 ## 📦 Technologies
 
