@@ -15,16 +15,16 @@ A Telegram bot for spam protection using a captcha system. New users must pass v
 
 ## 📦 Technologies
 
-    Go (Golang) - primary language
+    * Go (Golang) - primary language
 
-    MongoDB - database
+    * MongoDB - database
 
-    go-telegram-bot-api - for working with the Telegram API
+    * go-telegram-bot-api - for working with the Telegram API
 
 ## 🛠 Installation and Setup
 
     Clone the repository
-    ###### * bash
+    bash
     git clone https://github.com/yourusername/gatekeeper-bot.git
     cd gatekeeper-bot
 
