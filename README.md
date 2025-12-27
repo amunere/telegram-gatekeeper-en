@@ -58,16 +58,16 @@ gatekeeper-bot/
 
 ## MongoDB
 ### Сборка образа
-    docker build -t amunere-mongo:5.0 .
+    docker build -t gk-mongo:5.0 .
 
 ### Запуск (параметры как в исходной команде)
     docker run -d \
-    --name amunere_mongo \
+    --name gk-mongo \
     -p 127.0.0.1:27017:27017 \
     -v mongodb_data:/data/db \
     --memory="250m" \
     --memory-swap="350m" \
-    amunere-mongo:5.0
+    gk-mongo:5.0
 
 ## 🔒 Setting up the bot in Telegram
 
