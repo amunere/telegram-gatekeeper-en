@@ -52,6 +52,7 @@ gatekeeper-bot/
 │   └── models.go  
 ├── .env                     
 ├── .gitignore  
+├── Dockerfile  
 ├── go.mod  
 ├── go.sum  
 └── README.md  
