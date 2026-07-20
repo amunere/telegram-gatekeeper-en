@@ -58,10 +58,10 @@ gatekeeper-bot/
 └── README.md  
 
 ## MongoDB
-### Сборка образа
+### Build
     docker build -t gk-mongo:5.0 .
 
-### Запуск (параметры как в исходной команде)
+### Run
     docker run -d \
     --name gk-mongo \
     -p 127.0.0.1:27017:27017 \
